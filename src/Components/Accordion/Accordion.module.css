@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 500px;
+  height: auto;
+  background-color: #f5f5f5;
+  border: 1px solid #a1a1a1;
+  box-shadow: 3px 4px 5px #eee;
+  margin: 20px auto;
+  padding: 20px;
+  
+}
+
+.accordionLists {
+    
+}
+
+.enableMultiBtn{
+    background-color: #336699;
+    color:#fff;
+    border: none;
+    padding: 10px;
+    border-radius:3px;
+    margin: 0px auto;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.accQuestion {
+  display: flex;
+}
+
+.accQues {
+  width: auto;
+  height: auto;
+}
+.accList {
+  background-color: #c3c3c3;
+  border: 1px solid #a1a1a1;
+  margin-bottom: 20px;
+}
+
+.accList h4 {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.accListP {
+  background-color: #e0e0e0;
+  padding: 10px;
+  font-size: 14px;
+}

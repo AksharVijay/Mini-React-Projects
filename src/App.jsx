@@ -1,17 +1,18 @@
 // import ToDo from './ToDoApp/ToDo'
+// import ColorPicker from "./Components/ColorPicker/ColorPicker"
+// import DigitalClock from "./Components/DigitalClock/DigitalClock"
+// import Tenz from "./Components/Tenzies/Tenz"
+
 import Accordion from "./Components/Accordion/Accordion"
-import ColorPicker from "./Components/ColorPicker/ColorPicker"
-import DigitalClock from "./Components/DigitalClock/DigitalClock"
 
 function App() {
-
-
   return (
     <>
       {/* <ToDo/> */}
-      {/* <Accordion/> */}
-        <ColorPicker/>
+        {/* <ColorPicker/> */}
         {/* <DigitalClock/> */}
+        {/* <Tenz/> */}
+        <Accordion/>
     </>
   )
 }
