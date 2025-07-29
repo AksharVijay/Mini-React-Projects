@@ -1,0 +1,109 @@
+/* Weather App Container */
+.weather {
+  background-color: #818acf;
+  width: 300px;
+  height: auto;
+  box-shadow: 2px 6px 8px #212121;
+  padding: 16px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Search Section */
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  margin: 15px 0;
+}
+
+.search-text {
+  border: none;
+  outline: none;
+  padding: 8px 0px;
+  background: transparent;
+  flex: 1;
+  font-size: 18px;
+  color: #333;
+}
+
+.search-icon {
+  width: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.search-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Current Weather Display */
+.present-weather-img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.present-weather p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+/* Weather Stats */
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  gap: 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.col img {
+  width: 30px;
+  margin-bottom: 5px;
+}
+
+.col p {
+  font-weight: 600;
+  margin: 2px 0;
+}
+
+.col span {
+  font-size: 0.8rem;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .weather {
+    width: 90%;
+    padding: 12px;
+  }
+
+  .search-text {
+    font-size: 16px;
+  }
+
+  .present-weather-img {
+    width: 80px;
+  }
+
+  .col img {
+    width: 25px;
+  }
+
+  .present-weather p {
+    font-size: 18px;
+  }
+}
