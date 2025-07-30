@@ -5,11 +5,14 @@
 // import RandomColor from "./Components/RandomColorGenerator/RandomColor"
 // import WeatherApp from "./Components/WeatherApp/WeatherApp"
 // import Accordion from "./Components/Accordion/Accordion"
-import QuizApp from "./Components/QuizApp/QuizApp"
+// import QuizApp from "./Components/QuizApp/QuizApp"
 // import Crud from "./Components/Crud/Crud"
 //import ToDoList from "./Components/ToDoApp/ToDoList"
 //import Forms from "./Components/Forms/Forms"
 // import Quizz from "./Components/QuizApp/Quizz"
+
+import Nav from "./Components/Navbar/Nav"
+
 
 
 
@@ -27,9 +30,10 @@ function App() {
         {/* <ToDoList/> */}
         {/* <ExampleOne/> */}
         {/* <Crud/> */}
-        <QuizApp/>
+        {/* <QuizApp/> */}
 
         {/* <Quizz/> */}
+        <Nav/>
     </>
   )
 }
